@@ -1,0 +1,8 @@
+#!/bin/sh
+gnome-terminal -- ./gameserver -p 3 -i inventory -q 5
+gnome-terminal -- ./player -n kos_1 -i inventory_1 server
+gnome-terminal -- ./player -n kos_2 -i inventory_2 server
+gnome-terminal -- ./player -n kos_3 -i inventory_3 server
+gnome-terminal -- ./player -n kos_4 -i inventory_4 server
+gnome-terminal -- ./player -n kos_5 -i inventory_5 server
+gnome-terminal -- ./player -n kos_6 -i inventory_6 server
